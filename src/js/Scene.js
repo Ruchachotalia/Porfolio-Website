@@ -95,8 +95,8 @@ class Scene {
     this.video = video;
     video.setAttribute('crossorigin', 'anonymous');
     //video.src = "";
-    video.src = "Portfoliovideo.mp4";
-    video.load();
+    video.src = "https://embed-ssl.wistia.com/deliveries/3ee147968d5cdcb7911dedab8bc49b340bc91f0f.mp4";
+    video.load(); // Load the video
     const videoTexture = new THREE.VideoTexture(video);
     videoTexture.wrapT = THREE.RepeatWrapping;
     videoTexture.repeat.y = -1;
