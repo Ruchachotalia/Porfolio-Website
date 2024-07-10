@@ -1,4 +1,4 @@
-# Portfolio 2021
+# Portfolio
 
 Welcome to my Three.js portfolio, you can visit the built & deployed version [here]()
 
